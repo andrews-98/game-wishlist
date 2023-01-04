@@ -1,5 +1,7 @@
 # Wishlist
 
+![localhost_4200_](https://user-images.githubusercontent.com/110398424/210531351-7d3bbc13-1016-445c-b9b2-5653635f2fb3.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Development server
