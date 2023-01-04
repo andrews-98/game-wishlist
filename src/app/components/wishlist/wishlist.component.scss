@@ -1,0 +1,23 @@
+.wishlist{
+    width: 100%;
+    padding: 20px;
+
+    &_list{
+     display: flex;
+     align-items: center;
+     font-size: 21px;
+     padding-top: 10px;
+      
+        .list-icon{
+            padding-left: 15px;
+            cursor: pointer;
+        }
+    }
+    &_sum{
+        font-size: 19px;
+        margin-top: 25px;
+    }
+    &_button{
+        margin-top: 15px;
+    }
+}

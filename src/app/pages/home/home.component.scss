@@ -1,0 +1,12 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    &_wishlist{
+        width: 25%;
+    }
+    &_gamelist{
+        width: 75%;
+    }
+}

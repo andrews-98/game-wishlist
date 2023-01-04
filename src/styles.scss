@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:wght@400;700&display=swap');
+@import '/src/styles/variables.scss';
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    height: 31px;
+    padding: 0 25px;
+    border: 0px;
+    border-radius: 10px;
+    color: $fontPrimaryColor;
+    cursor: pointer;
+}
+button:hover {
+    opacity: .9;
+}
+.btn-primary {
+    background-color: $bgFillColor;
+}
+.btn-secondary{
+    background-color: $fontSecondaryColor; 
+}
+.btn-success{
+    background-color: $fontSuccessColor; 
+}

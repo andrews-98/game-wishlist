@@ -1,0 +1,17 @@
+<div class="gamelist">
+    <div class="gamelist_card">
+        <div class="card_item" *ngFor="let product of productList[0] | keyvalue">
+            <div class="item_img"><img [src]="product.value.cover" alt="">
+            </div>
+            <div class="item_name">{{product.value.name}}</div>
+            <div class="item_wrapper">
+                <div class="item_price">{{product.value.price}}$</div>
+                <div class="item_button">
+                    <button class="btn-primary" (click)="addToWishlist(product.value)"
+                    [ngClass]="product.value.checked ? 'btn-success' : null"
+                    >{{product.value.checked ? 'Added' : 'Add'}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

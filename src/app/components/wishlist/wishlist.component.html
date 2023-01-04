@@ -1,0 +1,11 @@
+<div class="wishlist">
+    <div class="wishlist_title"><h2>Wishlist</h2></div>
+     <div class="wishlist_list" *ngFor="let game of gameList">
+        <div class="list-title">{{game.name}}</div>
+        <div class="list-icon" (click)="removeFromWishList(game)" appBtnTitle>&#10006;</div>
+     </div>
+     <div class="wishlist_sum">Added games: {{addedSum}}</div>
+     <div class="wishlist_button">
+        <button class="btn-secondary" (click)="clearWishList()">clear</button>
+     </div>
+</div>
